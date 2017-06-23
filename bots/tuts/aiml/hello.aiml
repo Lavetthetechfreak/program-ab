@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+<pattern>Hello *</pattern>
+<template>Hey! are you felling today</template>
+</category>
+<category>
+<pattern>Hi</pattern>
+<template><srai>Hello *</srai></template>
+</category>
+<category>
+<pattern>sad</pattern>
+<template>
+How about you wear
+<random>
+<li>Black</li>
+<li>Grey</li>
+</random>?
+</template>
+</category>
+<category>
+<pattern>I am *</pattern>
+<template>
+How about you wear
+<random>
+<li>Blue</li>
+<li>Red</li>
+<li>Orange</li>
+<li>Grey</li>
+<li>Black</li>
+<li>Cream</li>
+<li>Yellow</li>
+<li>green</li>
+<li>black</li>
+<li>white</li>
+</random>?
+</template>
+</category>
+
+
+</aiml>
